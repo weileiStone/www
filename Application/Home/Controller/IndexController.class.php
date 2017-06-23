@@ -30,7 +30,7 @@ class IndexController extends Controller {
     	$data[]=array('name'=>'leaf','tel'=>'6454636');
     	$data[]=array('name'=>'qwer','tel'=>'4652313');
     	if($tel->addAll($data)){
-    		echo "rg";
+    		echo "rgerw";
     	}else{
     		echo "error";
     	}
