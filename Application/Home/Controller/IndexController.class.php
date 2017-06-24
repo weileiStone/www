@@ -32,7 +32,7 @@ class IndexController extends Controller {
     	if($tel->addAll($data)){
     		echo "rgerw";
     	}else{
-    		echo "error is wrong";
+    		echo "error  wrong";
     	}
     }
     public function tel3(){
