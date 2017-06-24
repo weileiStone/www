@@ -41,7 +41,7 @@ class IndexController extends Controller {
     	$tel=M('tel');
     	$res=$tel->where('id>1')->select();
     	if($res){
-    		echo "<pre>";
+    
     		var_dump($res);
     	}else{
     		echo "error";
