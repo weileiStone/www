@@ -32,7 +32,9 @@ class IndexController extends Controller {
     	if($tel->addAll($data)){
     		echo "rgerw";
     	}else{
+
     		echo "errordsada";
+
     	}
     }
     public function tel3(){
