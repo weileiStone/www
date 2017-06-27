@@ -32,6 +32,7 @@ class IndexController extends Controller {
     	if($tel->addAll($data)){
     		echo "rgerw";
     	}else{
+
     		echo "error  wrong";
     	}
     }
@@ -40,7 +41,8 @@ class IndexController extends Controller {
     	$res=$tel->where('id>1')->select();
     	if($res){
     
-    		var_dump($res);
+    		//var_dump($res);
+    		echo strtotime("2017-02-02");
     	}else{
     		echo "error";
     	}
