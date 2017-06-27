@@ -32,15 +32,17 @@ class IndexController extends Controller {
     	if($tel->addAll($data)){
     		echo "rgerw";
     	}else{
-    		echo "errordsada";
+
+    		echo "error  wrong";
     	}
     }
     public function tel3(){
     	$tel=M('tel');
     	$res=$tel->where('id>1')->select();
     	if($res){
-    		echo "<pre>";
-    		var_dump($res);
+    
+    		//var_dump($res);
+    		echo strtotime("2017-02-02");
     	}else{
     		echo "error";
     	}
